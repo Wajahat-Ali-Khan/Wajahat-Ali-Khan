@@ -40,7 +40,7 @@ I'm an expert backend engineer with 6+ years of experience building scalable, hi
 ---
 
 ##  Education
-- **B.S. in Space Science & Technology** – Karachi University (2022)
+- **B.S. in Space Science & Technology** – Karachi University
 
 ---
 
