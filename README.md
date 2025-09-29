@@ -8,7 +8,7 @@ I'm an expert backend engineer with 6+ years of experience building scalable, hi
 
 - Python backend development using Django, Flask, and FastAPI  
 - AI-driven solutions with LLMs, LangChain, RAG, and vector search  
-- Cloud-native architecture on AWS and Azure  
+- Cloud-native architecture on AWS, GCP and Azure  
 - Clean architecture, CI/CD, microservices, ETL pipelines, and secure integrations
 
 ---
@@ -17,9 +17,9 @@ I'm an expert backend engineer with 6+ years of experience building scalable, hi
 
 <p align="left">
   <img alt="Python" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-  <img alt="Django" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" />
+  <img alt="Django" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" />
   <img alt="FastAPI" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" />
-  <img alt="AWS" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" />
+  <img alt="AWS" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
   <img alt="Azure" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-plain.svg" />
   <img alt="Docker" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
   <img alt="LangChain" width="40" src="https://img.icons8.com/fluency/48/000000/brain--v1.png" />
@@ -32,7 +32,7 @@ I'm an expert backend engineer with 6+ years of experience building scalable, hi
 
 | Role & Organization | Achievements |
 |----------------------|--------------|
-| **Senior Python Backend & AI Solutions Engineer** – Alliance Global Tech (2024–Present) | Developed AI-powered chatbots, whitepaper generation systems, and vector search apps deployed across AWS and Azure. |
+| **Senior Python Backend & AI Solutions Engineer** – Cigna (2024–Present) | Developed AI-powered chatbots, whitepaper generation systems, and vector search apps deployed across AWS and Azure. |
 | **Python Backend & AI Solutions Engineer** – Fleekbiz (2023–2024) | Built AI legal assistants using GPT-4o, LangChain, and Azure AI Search; executed GDPR-compliant multi-turn conversations and fine-tuned domain-specific models. |
 | **Python Developer** – UdhaarBook (2022–2023) | Engineered fintech backend systems, integrated payment APIs, and optimized REST services using Django and FastAPI. |
 | **Python Developer** – 3Const (2019–2022) | Delivered microservices, real-time communications, and geospatial backend features. |
@@ -40,13 +40,15 @@ I'm an expert backend engineer with 6+ years of experience building scalable, hi
 ---
 
 ##  Education
-- **B.S. in Space Science & Technology** – Karachi University
+- **MSc in Geographic Information Science** – Karachi University
+- **B.Sc (Hons) in Space Science & Technology** – Karachi University
 
 ---
 
 ##  Connect with Me
 - **Email**: wajjikhan2485@gmail.com  
 - **LinkedIn**: [linkedin.com/in/wajahataliofficials](https://www.linkedin.com/in/wajahataliofficials)
+- **Portfolio**: [Wajahat - Portfolio](https://wajahatkhan.carrd.co/)
 
 ---
 
