@@ -32,10 +32,10 @@ I'm an expert backend engineer with 6+ years of experience building scalable, hi
 
 | Role & Organization | Achievements |
 |----------------------|--------------|
-| **Senior Python Backend & AI Solutions Engineer** – Cigna (2025–Present) | Developed AI-powered chatbots, clinical assitant systems, and vector search apps deployed on AWS. |
-| **Python Backend & AI Solutions Engineer** – Fleekbiz (2023–2025) | Built AI legal assistants using GPT-4o, LangChain, and Azure AI Search; executed GDPR-compliant multi-turn conversations and fine-tuned domain-specific models. |
-| **Python Developer** – UdhaarBook (2022–2023) | Engineered fintech backend systems, integrated payment APIs, and optimized REST services using Django and DRF. |
-| **Python Developer** – 3Const (2019–2022) | Delivered microservices, real-time communications, and geospatial backend features. |
+| **Senior Python Developer** – Alliance Global (2025–2025) | Developed AI-powered chatbots, clinical assitant systems, and vector search apps deployed on AWS. |
+| **Python Backend & AI Solutions Engineer** – Fleekbiz (2024–2025) | Built AI legal assistants using GPT-4o, LangChain, and Azure AI Search; executed GDPR-compliant multi-turn conversations and fine-tuned domain-specific models. |
+| **Python Developer** – UdhaarBook (2023–2024) | Engineered fintech backend systems, integrated payment APIs, and optimized REST services using Django and DRF. |
+| **Python Developer** – 3Const (2021–2023) | Delivered microservices, real-time communications, and geospatial backend features. |
 
 ---
 
