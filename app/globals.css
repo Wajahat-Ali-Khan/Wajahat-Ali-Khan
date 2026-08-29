@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --monograph-bg: #0a0b0d;
+    --monograph-paper: #f4f4f2;
+    --monograph-muted: #a0a09e;
+    --monograph-caption: #8a8a88;
+    --monograph-rule: #2a2b2e;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply overflow-x-hidden bg-monograph-bg text-monograph-paper antialiased;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  ::selection {
+    @apply bg-monograph-paper text-monograph-bg;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--monograph-paper);
+    outline-offset: 2px;
+  }
+
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+@layer components {
+  .monograph-grid {
+    @apply mx-auto grid max-w-[1400px] grid-cols-12 gap-x-4 px-6 md:px-10;
+  }
+
+  .monograph-rule {
+    @apply border-t border-monograph-rule;
+  }
+
+  .technical-caption {
+    @apply font-mono text-[10px] uppercase tracking-[0.2em] text-monograph-caption;
+  }
+
+  .metric-value {
+    @apply font-mono text-xl font-medium tabular-nums sm:text-2xl md:text-3xl;
+  }
+
+  .diagram-plate {
+    @apply overflow-x-auto rounded-sm border border-monograph-rule bg-monograph-paper p-4 text-monograph-bg md:p-6;
+  }
+
+  .film-strip-snap {
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .film-frame {
+    scroll-snap-align: center;
+  }
+
+  .film-sprockets {
+    height: 8px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      var(--monograph-rule) 0,
+      var(--monograph-rule) 16px,
+      transparent 16px,
+      transparent 28px
+    );
+    background-size: 28px 8px;
+  }
+
+  .blueprint-surface {
+    @apply relative overflow-auto rounded-sm border border-monograph-rule bg-monograph-bg;
+    background-image:
+      linear-gradient(rgba(42, 43, 46, 0.5) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(42, 43, 46, 0.5) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}

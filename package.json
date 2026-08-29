@@ -1,0 +1,41 @@
+{
+  "name": "portfolio-monograph",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run gen-specs && npm run validate-content && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "gen-specs": "tsx scripts/generate-specs.ts",
+    "validate-content": "tsx scripts/validate-content.ts"
+  },
+  "dependencies": {
+    "@use-gesture/react": "^10.3.1",
+    "framer-motion": "^12.4.7",
+    "next": "^15.2.0",
+    "pdfkit": "^0.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.1",
+    "@types/node": "^22.13.5",
+    "@types/pdfkit": "^0.13.9",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "^15.2.0",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}

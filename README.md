@@ -1,55 +1,59 @@
-# ​ Hi, I'm Wajahat Ali Khan  
-**Senior Python Backend, AI & Cloud Solutions Expert**
+# Wajahat Ali Khan — Solutions Architecture & Consulting Portfolio
 
----
+A high-performance, evidence-based consulting portfolio for **Wajahat Ali Khan**, Principal Python & GenAI Solutions Consultant. Positions capabilities in high-throughput Python backends, production GenAI/RAG systems, multi-tenant cloud SaaS architectures, and cost-optimized LLM inference.
 
-##  About Me
-I'm an expert backend engineer with 6+ years of experience building scalable, high-performance systems. I specialize in:
+## Verified Background & Data Sources
 
-- Python backend development using Django, Flask, and FastAPI  
-- AI-driven solutions with LLMs, LangChain, RAG, and vector search  
-- Cloud-native architecture on AWS, GCP and Azure  
-- Clean architecture, CI/CD, microservices, ETL pipelines, and secure integrations
+Content is strictly derived from verified credentials and project metrics:
 
----
+1. **Resume & Projects** — Verified lead engineering and consulting achievements (HomeCertifi, Fleekbiz, Alliance Global Tech, UdhaarBook, 3Const, AOI Tech).
+2. **LinkedIn** — [linkedin.com/in/wajahataliofficials](https://linkedin.com/in/wajahataliofficials) (education degrees, certifications, system design insights).
+3. **GitHub** — [github.com/Wajahat-Ali-Khan](https://github.com/Wajahat-Ali-Khan) (open source repositories & code).
 
-##  Technologies & Tools
+## Core Capabilities & Services
 
-<p align="left">
-  <img alt="Python" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-  <img alt="Django" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" />
-  <img alt="FastAPI" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" />
-  <img alt="AWS" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
-  <img alt="Azure" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-plain.svg" />
-  <img alt="Docker" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
-  <img alt="LangChain" width="40" src="https://img.icons8.com/fluency/48/000000/brain--v1.png" />
-  <img alt="PostgreSQL" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-</p>
+- **Generative AI & Production RAG:** Dual-provider cost-gated inference (70–80% LLM cost reduction), hybrid vector retrieval (Azure AI Search, Weaviate, Bedrock), WebSocket streaming.
+- **High-Throughput Backends:** FastAPI, Django, DRF, Flask, Celery & Redis distributed task queues, database tuning.
+- **Multi-Tenant SaaS & Financial Engines:** Tenant data isolation, RBAC, Stripe subscription lifecycle & webhook recovery, ACID fintech wallets.
+- **Cloud Migration & Zero-Downtime DevOps:** AWS/Azure/GCP microservices, Docker, Kubernetes & Helm rollouts, Alembic migrations.
 
----
+## Sections
 
-##  Experience Highlights
+| Section | Description |
+|---|---|
+| **Hero** | Consultant headline, verified proof metrics strip, and primary discovery CTAs |
+| **Consulting Services** | 4 core engineering offerings + 3 engagement options (Project, Fractional Lead, Audit) |
+| **Case Studies** | 4 verified case studies (HomeCertifi, Fleekbiz, Healthcare AI, UdhaarBook) with architecture diagrams |
+| **Consulting Methodology** | 4-step engineering execution lifecycle from Discovery to Production Handover |
+| **Credentials & Atlas** | Verified skill matrix, employment timeline, certifications, and University of Karachi degrees |
+| **Infra & API Specs** | Downloadable architecture blueprints and API specifications |
+| **Technical Insights** | Published engineering insights on system design, caching, message queues, and AI protocols |
+| **Contact & Inquiry** | Direct verified email with copy utility, LinkedIn, GitHub, and client scoping checklist |
 
-| Role & Organization | Achievements |
-|----------------------|--------------|
-| **Senior Python Developer** – Alliance Global (2025–2025) | Developed AI-powered chatbots, clinical assitant systems, and vector search apps deployed on AWS. |
-| **Python Backend & AI Solutions Engineer** – Fleekbiz (2024–2025) | Built AI legal assistants using GPT-4o, LangChain, and Azure AI Search; executed GDPR-compliant multi-turn conversations and fine-tuned domain-specific models. |
-| **Python Developer** – UdhaarBook (2023–2024) | Engineered fintech backend systems, integrated payment APIs, and optimized REST services using Django and DRF. |
-| **Python Developer** – 3Const (2021–2023) | Delivered microservices, real-time communications, and geospatial backend features. |
+## Interactions
 
----
+- **Cursor trail** — faint data-packet dots follow pointer movement
+- **Project handoff** — cross-fade + horizontal slide between spreads on scroll
+- **Architecture diagrams** — nodes build, paths connect, data-flow dots animate on scroll-into-view
+- **API blueprints** — drag to reposition, pinch (or Ctrl+scroll) to resize endpoint cards
+- **Reduced motion** — all animations respect `prefers-reduced-motion`
 
-##  Education
-- **MSc in Geographic Information Science** – Karachi University
-- **B.Sc (Hons) in Space Science & Technology** – Karachi University
+## Customization
 
----
+Edit [`lib/projects.ts`](lib/projects.ts) to update case studies, metrics, diagram nodes, and posts. Edit [`lib/profile.ts`](lib/profile.ts) to update skills, certifications, education, employment, and the featured ISP project. Both files are validated by [`scripts/validate-content.ts`](scripts/validate-content.ts) against the Zod schemas in [`lib/schemas/profile.schema.ts`](lib/schemas/profile.schema.ts). Regenerate PDFs with `npm run gen-specs` after project changes.
 
-##  Connect with Me
-- **Email**: wajjikhan2485@gmail.com  
-- **LinkedIn**: [linkedin.com/in/wajahataliofficials](https://www.linkedin.com/in/wajahataliofficials)
-- **Portfolio**: [Wajahat - Portfolio](https://wajahatkhan.carrd.co/)
+## Build
 
----
+The `build` script chains content validation before the Next.js compile:
 
-I’m always up for collaborating on innovative AI, backend, and cloud projects—feel free to reach out!  
+```bash
+npm run build        # gen-specs → validate-content → next build
+npm start
+```
+
+## Testing
+
+```bash
+npm test             # vitest run (lib + components)
+npm run test:watch   # vitest watch mode
+```
